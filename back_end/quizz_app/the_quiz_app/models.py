@@ -32,7 +32,7 @@ class Questions(models.Model):
 
     class Meta:
         verbose_name = _('Questions')
-        verbose_name_plural = _("Quizzes")
+        verbose_name_plural = _("Questions")
         ordering = ['id']
     
     def __str__(self):
